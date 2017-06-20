@@ -45,6 +45,13 @@ namespace MyXamarinAndroid.Activities
                 var photoSpiralIntent = new Intent(this, typeof(PhotoSpiralActivity));
                 StartActivity(photoSpiralIntent);
             };
+
+            Button pizzaButton = FindViewById<Button>(Resource.Id.pizzaButton);
+            pizzaButton.Click += (sender, args) =>
+            {
+                var pizzaIntent = new Intent(this, typeof(PizzaActivity));
+                StartActivity(pizzaIntent);
+            };
         }
     }
 }

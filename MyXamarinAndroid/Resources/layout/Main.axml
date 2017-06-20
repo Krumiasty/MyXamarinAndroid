@@ -39,7 +39,8 @@
       <Button
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
-        android:text="Empty"/>
+        android:text="Pizza"
+        android:id="@+id/pizzaButton"/>
       <Button
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
