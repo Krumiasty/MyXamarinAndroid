@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  <TableRow>
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Width"
+      android:layout_margin="4dp"
+      android:layout_gravity="center"
+      android:textAppearance="@android:style/TextAppearance.Large"/>
+    <MyXamarinAndroid.CustomControls.LengthPicker
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:id="@+id/width"/>
+  </TableRow>
+  <TableRow>
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Height"
+      android:layout_margin="4dp"
+      android:layout_gravity="center"
+      android:textAppearance="@android:style/TextAppearance.Large"/>
+    <MyXamarinAndroid.CustomControls.LengthPicker
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:id="@+id/height"/>
+  </TableRow>
+  <TableRow>
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Area"
+      android:layout_margin="4dp"
+      android:layout_gravity="center"
+      android:textAppearance="@android:style/TextAppearance.Large"/>
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_margin="4dp"
+      android:layout_gravity="center"
+      android:id="@+id/area_calculated"
+      android:textAppearance="@android:style/TextAppearance.Large"/>
+  </TableRow>
+</TableLayout>
+
