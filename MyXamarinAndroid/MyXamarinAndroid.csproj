@@ -53,10 +53,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Activities\SquareViewActivity.cs" />
     <Compile Include="CustomControls\LengthPicker.cs" />
     <Compile Include="Activities\LengthPickerActivity.cs" />
     <Compile Include="Activities\MainActivity.cs" />
     <Compile Include="Activities\CustomTextViewActivity.cs" />
+    <Compile Include="CustomControls\SquareView.cs" />
     <Compile Include="Properties\Annotations.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -72,6 +74,9 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\LengthPicker.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\SquareView.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

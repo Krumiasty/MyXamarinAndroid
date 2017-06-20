@@ -31,6 +31,13 @@ namespace MyXamarinAndroid.Activities
                 var lengthPickerIntent = new Intent(this, typeof(LengthPickerActivity));
                 StartActivity(lengthPickerIntent);
             };
+
+            Button squareViewButton = FindViewById<Button>(Resource.Id.squareViewButton);
+            squareViewButton.Click += (sender, args) =>
+            {
+                var squareViewIntent = new Intent(this, typeof(SquareViewActivity));
+                StartActivity(squareViewIntent);
+            };
         }
     }
 }
