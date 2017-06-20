@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MyXamarinAndroid.CustomControls.PhotoSpiral xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_gravity="center">
+  <ImageView
+    android:layout_width="200dp"
+    android:layout_height="100dp"
+    android:background="#FF0000"/>
+  <ImageView
+    android:layout_width="100dp"
+    android:layout_height="200dp"
+    android:background="#00FF00"/>
+  <ImageView
+    android:layout_width="200dp"
+    android:layout_height="100dp"
+    android:background="#0000FF"/>
+  <ImageView
+    android:layout_width="100dp"
+    android:layout_height="200dp"
+    android:background="#00FFFF"/>
+</MyXamarinAndroid.CustomControls.PhotoSpiral>
