@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MyXamarinAndroid.CustomControls.Sideways
+  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_gravity="center">
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:textColor="#FF0000"
+    android:background="#00FF00"
+    android:text="Goodnight Moon"/>
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="8dp"
+    android:paddingRight="20dp"
+    android:textColor="#0000FF"
+    android:background="#FF0000"
+    android:text="Sideways Three"/>
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:textColor="#00FF00"
+    android:background="#0000FF"
+    android:text="Yoyoyo yo"/>
+
+</MyXamarinAndroid.CustomControls.Sideways>

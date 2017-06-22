@@ -1,9 +1,5 @@
-﻿using System;
-using Android.App;
+﻿using Android.App;
 using Android.Content;
-using Android.Content.PM;
-using Android.Runtime;
-using Android.Views;
 using Android.Widget;
 using Android.OS;
 
@@ -51,6 +47,13 @@ namespace MyXamarinAndroid.Activities
             {
                 var pizzaIntent = new Intent(this, typeof(PizzaActivity));
                 StartActivity(pizzaIntent);
+            };
+
+            Button sidewaysButton = FindViewById<Button>(Resource.Id.sidewaysButton);
+            sidewaysButton.Click += (sender, args) =>
+            {
+                var sidewaysIntent = new Intent(this, typeof(SidewaysActivity));
+                StartActivity(sidewaysIntent);
             };
         }
     }
