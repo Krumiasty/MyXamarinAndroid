@@ -55,6 +55,7 @@
   <ItemGroup>
     <Compile Include="Activities\PhotoSpiralActivity.cs" />
     <Compile Include="Activities\PizzaActivity.cs" />
+    <Compile Include="Activities\SidewaysActivity.cs" />
     <Compile Include="Activities\SquareViewActivity.cs" />
     <Compile Include="CustomControls\LengthPicker.cs" />
     <Compile Include="Activities\LengthPickerActivity.cs" />
@@ -62,6 +63,7 @@
     <Compile Include="Activities\CustomTextViewActivity.cs" />
     <Compile Include="CustomControls\PhotoSpiral.cs" />
     <Compile Include="CustomControls\Pizza.cs" />
+    <Compile Include="CustomControls\Sideways.cs" />
     <Compile Include="CustomControls\SquareView.cs" />
     <Compile Include="Properties\Annotations.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
@@ -90,6 +92,9 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\PizzaLayout.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\SidewaysLayout.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
