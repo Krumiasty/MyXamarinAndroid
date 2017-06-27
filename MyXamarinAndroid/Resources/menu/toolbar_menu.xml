@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item 
+    android:id="@+id/discard"
+    android:icon="@drawable/ic_discard"
+    android:orderInCategory="100"
+    android:title="Delete"
+    android:showAsAction="always"/>
+
+  <item
+    android:id="@+id/search"
+    android:icon="@drawable/ic_search"
+    android:orderInCategory="100"
+    android:title="Search"
+    android:showAsAction="always"/>
+
+  <item
+    android:id="@+id/settings"
+    android:orderInCategory="100"
+    android:title="Settings"
+    android:showAsAction="never"/>
+
+  <item
+    android:id="@+id/edit"
+    android:orderInCategory="100"
+    android:title="Edit"
+    android:showAsAction="never"/>
+
+  <item
+    android:id="@+id/exit"
+    android:orderInCategory="100"
+    android:title="Exit"
+    android:showAsAction="never"/>
+  
+</menu>

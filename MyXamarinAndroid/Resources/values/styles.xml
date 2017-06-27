@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <style name="Theme.Holo.ActionBarOverlay" parent="android:style/Theme.Holo">
+    <item name="android:windowActionBarOverlay">true</item>
+  </style>
+
+  <style name="MyCustomTheme" parent="android:style/Theme.Material.Light.NoActionBar">
+    <item name="android:colorPrimary">@color/colorPrimary</item>
+    <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="android:colorAccent">@color/colorAccent</item>
+
+    <item name="android:colorControlHighlight">#1EF1AB</item>
+    <item name="android:colorButtonNormal">#F955F3</item>
+    <item name="android:colorControlActivated">#0CF427</item>
+  </style>
+
+  <style name="ToolbarTheme" parent="android:style/ThemeOverlay.Material.Light">
+    <item name="android:textColorPrimary">@color/white</item>
+    <item name="android:textColorSecondary">@color/white</item>
+  </style>
+
+  <style name="PopupTheme" parent="android:style/ThemeOverlay.Material.Light">
+    <item name="android:textColorPrimary">#9E9E9E</item>
+    <item name="android:background">#FFFCFFF6</item>
+  </style>
+</resources>
