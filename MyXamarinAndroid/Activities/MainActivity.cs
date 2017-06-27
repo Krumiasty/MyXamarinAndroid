@@ -5,7 +5,8 @@ using Android.OS;
 
 namespace MyXamarinAndroid.Activities
 {
-    [Activity(Label = "MyXamarinAndroid", MainLauncher = true, Icon = "@drawable/icon", Theme = "@android:style/Theme.Material.Light.NoActionBar")]
+    [Activity(Label = "MyXamarinAndroid", MainLauncher = true, Icon = "@drawable/icon", 
+        Theme = "@android:style/Theme.Material.Light.NoActionBar")]
     public class MainActivity : Activity
     {
         protected override void OnCreate(Bundle bundle)
@@ -54,6 +55,34 @@ namespace MyXamarinAndroid.Activities
             {
                 var sidewaysIntent = new Intent(this, typeof(SidewaysActivity));
                 StartActivity(sidewaysIntent);
+            };
+
+            Button actionBarButton = FindViewById<Button>(Resource.Id.actionBarButton);
+            actionBarButton.Click += (sender, args) =>
+            {
+                var actionBarIntent = new Intent(this, typeof(ActionBarActivity));
+                StartActivity(actionBarIntent);
+            };
+
+            Button toolbarButton = FindViewById<Button>(Resource.Id.toolbarButton);
+            toolbarButton.Click += (sender, args) =>
+            {
+                var actionBarIntent = new Intent(this, typeof(ToolbarActivity));
+                StartActivity(actionBarIntent);
+            };
+
+            Button toolbarStandaloneButton = FindViewById<Button>(Resource.Id.standaloneToolbarButton);
+            toolbarStandaloneButton.Click += (sender, args) =>
+            {
+                var toolbarStandaloneIntent = new Intent(this, typeof(ToolbarStandaloneActivity));
+                StartActivity(toolbarStandaloneIntent);
+            };
+
+            Button recyclerViewButton = FindViewById<Button>(Resource.Id.recyclerViewButton);
+            recyclerViewButton.Click += (sender, args) =>
+            {
+                var recyclerViewIntent = new Intent(this, typeof(RecyclerViewActivity));
+                StartActivity(recyclerViewIntent);
             };
         }
     }

@@ -46,6 +46,37 @@
         android:layout_width="wrap_content"
         android:text="Sideways"
         android:id="@+id/sidewaysButton"/>
+      <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="ActionBar Activity"
+        android:id="@+id/actionBarButton"/>
+      <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Toolbar as ActionBar"
+        android:id="@+id/toolbarButton"/>
+      <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Standalone Toolbar"
+        android:id="@+id/standaloneToolbarButton"/>
+      <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="RecyclerView"
+        android:id="@+id/recyclerViewButton"/>
+      <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Empty"
+        android:id="@+id/asd"/>
+      <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Empty"
+        android:id="@+id/dasda"/>
+
     </LinearLayout>
   </ScrollView>
 </LinearLayout>
