@@ -69,14 +69,23 @@
       <Button
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
-        android:text="Empty"
-        android:id="@+id/asd"/>
+        android:text="RecyclerCardView"
+        android:id="@+id/recyclerCardViewButton"/>
       <Button
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:text="Empty"
         android:id="@+id/dasda"/>
-
+      <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Empty"
+        android:id="@+id/dasdasa"/>
+      <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Empty"
+        android:id="@+id/dasdsada"/>
     </LinearLayout>
   </ScrollView>
 </LinearLayout>

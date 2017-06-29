@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".RecyclerViewActivity">
+  <item
+    android:id="@+id/linearViewHorizontal"
+    android:orderInCategory="100"
+    android:title="@string/LinearViewHorizontal"
+    android:showAsAction="never"/>
+  <item
+    android:id="@+id/linearViewVertical"
+    android:orderInCategory="100"
+    android:title="@string/LinearViewVertical"
+    android:showAsAction="never"/>
+  <item
+    android:id="@+id/gridView"
+    android:orderInCategory="100"
+    android:title="@string/GridView"
+    android:showAsAction="never"/>
+  <item
+    android:id="@+id/staggeredViewHorizontal"
+    android:orderInCategory="100"
+    android:title="@string/StaggeredViewHorizontal"
+    android:showAsAction="never"/>
+  <item
+    android:id="@+id/staggeredViewVertical"
+    android:orderInCategory="100"
+    android:title="@string/StaggeredViewVertical"
+    android:showAsAction="never"/>
+  
+</menu>
