@@ -2,4 +2,10 @@
 <resources>
     <string name="Hello">Hello World, Click Me!</string>
     <string name="ApplicationName">MyXamarinAndroid</string>
+
+  <string name="LinearViewHorizontal">LinearView Horizontal</string>
+  <string name="GridView">GridView</string>
+  <string name="StaggeredViewHorizontal">StaggeredViewHorizontal</string>
+  <string name="StaggeredViewVertical">StaggeredViewVertical</string>
+  <string name="LinearViewVertical">LinearView Vertical</string>
 </resources>
