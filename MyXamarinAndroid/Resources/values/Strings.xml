@@ -8,4 +8,17 @@
   <string name="StaggeredViewHorizontal">StaggeredViewHorizontal</string>
   <string name="StaggeredViewVertical">StaggeredViewVertical</string>
   <string name="LinearViewVertical">LinearView Vertical</string>
+
+  <string name="explode_java">Explode - Code</string>
+  <string name="explode_xml">Explode - XML</string>
+  <string name="slide_java">Slide - Code</string>
+  <string name="slide_xml">Slide - XML</string>
+  <string name="fade_java">Fade - Code</string>
+  <string name="fade_xml">Fade - XML</string>
+  <string name="shared_element">Shared Element</string>
+  <string name="ripple_border">Ripple with Border</string>
+  <string name="ripple_without_border">Ripple Without Border</string>
+  <string name="custom_ripple_border">Custom Ripple With Border</string>
+  <string name="custom_ripple_borderless">Custom Ripple Without Border</string>
+  <string name="exit">Exit</string>
 </resources>

@@ -72,6 +72,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Activities\ActionBarActivity.cs" />
+    <Compile Include="Activities\AnimationsActivity.cs" />
     <Compile Include="Activities\PhotoSpiralActivity.cs" />
     <Compile Include="Activities\PizzaActivity.cs" />
     <Compile Include="Activities\RecyclerCardViewActivity.cs" />
@@ -80,6 +81,7 @@
     <Compile Include="Activities\SquareViewActivity.cs" />
     <Compile Include="Activities\ToolbarActivity.cs" />
     <Compile Include="Activities\ToolbarStandaloneActivity.cs" />
+    <Compile Include="Activities\TransitionActivity.cs" />
     <Compile Include="Adapter\RecyclerAdapter.cs" />
     <Compile Include="Adapter\RecyclerCardAdapter.cs" />
     <Compile Include="Model\Animal.cs" />
@@ -144,6 +146,12 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\recyclercard_list_item.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\AnimationsLayout.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\TransitionLayout.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
@@ -475,6 +483,18 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\menu\recyclercard_menu.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\star.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\values\dimens.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ripple_with_border.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ripple_without_border.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

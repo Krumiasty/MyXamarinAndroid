@@ -9,8 +9,8 @@
     <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
     <item name="android:colorAccent">@color/colorAccent</item>
 
-    <item name="android:colorControlHighlight">#1EF1AB</item>
-    <item name="android:colorButtonNormal">#F955F3</item>
+    <item name="android:colorControlHighlight">#2FFF00</item>
+    <item name="android:colorButtonNormal">#0000FF</item>
     <item name="android:colorControlActivated">#0CF427</item>
   </style>
 

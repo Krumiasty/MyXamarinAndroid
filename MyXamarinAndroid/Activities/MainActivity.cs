@@ -91,6 +91,13 @@ namespace MyXamarinAndroid.Activities
                 var recyclerCardViewIntent = new Intent(this, typeof(RecyclerCardViewActivity));
                 StartActivity(recyclerCardViewIntent);
             };
+
+            Button animationsButton = FindViewById<Button>(Resource.Id.animationButton);
+            animationsButton.Click += (sender, args) =>
+            {
+                var animationIntent = new Intent(this, typeof(AnimationsActivity));
+                StartActivity(animationIntent);
+            };
         }
     }
 }

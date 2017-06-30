@@ -74,8 +74,8 @@
       <Button
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
-        android:text="Empty"
-        android:id="@+id/dasda"/>
+        android:text="Animations"
+        android:id="@+id/animationButton"/>
       <Button
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
